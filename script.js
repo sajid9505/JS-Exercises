@@ -14,7 +14,7 @@ function arraySum (arr){
     }); 
     return sum
     
-    // return (multiplier) => {sum *multiplier}
+    // return (multiplier) => {return sum*multiplier}
 
 }
 
