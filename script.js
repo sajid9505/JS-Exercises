@@ -12,8 +12,12 @@ function arraySum (arr){
     arr.forEach(element => {
             sum = sum + element;
     }); 
-    return sum    
+    return sum
+    
+    // return (multiplier) => {sum *multiplier}
+
 }
 
 let sum = arraySum([1,2,3])
 console.log(sum)
+// console.log(sum(2))
