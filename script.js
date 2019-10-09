@@ -29,3 +29,33 @@ function validEmail (email) {
 }
 console.log(validEmail("sajid")); 
 console.log(validEmail("sajid.mahmud9505@gmail.com"));
+
+ //task 4
+ var library = [
+    {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true,
+        updateStatus:function (read){this.readingStatus=read}
+    },
+    { 
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true,
+        updateStatus:function (read){this.readingStatus=read}
+
+    },
+    {
+        author: 'Suzanne Collins',
+        title:  'Mockingjay: The Final Book of The Hunger Games', 
+        readingStatus: false,
+        updateStatus:function (read){this.readingStatus=read}
+
+    }];
+    console.log(library[1]readingStatus)
+    library[1].updateStatus(false);
+    console.log("reading status",library[1].radingStatus)
+    function readinfStatus(index{
+        return library[index].readingStatus
+    }
+    console.log(readStatus(2))
