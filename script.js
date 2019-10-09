@@ -21,3 +21,11 @@ function arraySum (arr){
 let sum = arraySum([1,2,3])
 console.log(sum)
 // console.log(sum(2))
+
+//task 3
+
+function validEmail (email) {
+    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ; 
+}
+console.log(validEmail("sajid")); 
+console.log(validEmail("sajid.mahmud9505@gmail.com"));
